@@ -269,8 +269,66 @@ b{
         .comfort-main{
             flex-direction: column;
         }
-        
-     
+    
+        }
+
+        @media (max-width:914px){
+             .logo h1{
+                font-size: 20px;
+             }
+    
+        }
+
+        @media (max-width: 600px){
+            .logo h1{
+                font-size: 30px;
+             }
+
+             .Search-bar, .header-links{
+                display: none;
+             }
+
+             .comfort-main{
+                width: 80%;
+                gap: 30px;  
+                align-items: center;
+                margin: 0 auto;
+             }
+
+             .comfort{
+                width: 100%;
+                text-align: center;
+             }
+
+             .com-text{
+                text-align: center;
+                margin-top: -10px;
+             }
+
+             .mg-1{
+                width: 45%;
+                margin: 20px 0px 20px 10px;
+             }
+
+             .mug-card{
+                gap: 4px;
+             }
+
+             .marq{
+                margin-top: -100px;
+             }
+
+             .menu{
+                float: right; 
+                margin-top: -25px;
+             }
+        }
+
+        @media (min-width: 485px){
+            .menu{
+                display: none;
+
+             }
         }
        
 
