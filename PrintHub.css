@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    padding: 10px 30px;
+    height: 80px;
+    
+}
+.mq span{
+    display: inline-block;
+    margin-left: 200px ;
+}
+
+.mq span:not(:last-child){
+    
+}
+
+.comfort{
+    width: 35%;
+    height: 270px;
+}
+
+.comfort-main{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 100px;
+}
+
+.com-text{
+    margin-top: 100px;
+    
+    font-size: 20px;
+    text-align: left;
+}
+
+.PrintHub{
+    font-size: 80px;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(32, 32, 56);
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.search-bar input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+   background-color: green;
+   color: white;
+   border: none;
+   padding: 8px 15px;
+   border-radius: 4px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.header-links a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 32, 56);
+}
+
+h4{
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+    font-size: large;
+}
+
+.mug-card{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  
+}
+
+img{
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.mg-1{
+    margin: 20px;
+    width: 199px;
+    height: 230px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+h3{
+   background-color: gold;
+   color: black;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.key-h4{
+    background-color: rgb(32, 32, 56);
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.vest-h4{
+    background-color: rgb(12, 146, 255);
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.cap-h4{
+    background-color: rgb(32, 32, 56);
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.key-h4{
+    background-color: rgb(72, 73, 21);
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.vest-h3{
+   background-color: rgb(12, 146, 255);
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.cap-h3{
+   background-color: rgb(32, 32, 56);
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.key-h3{
+   background-color: rgb(72, 73, 21);
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.key-rh3{
+   background-color: red;
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.pen-h4{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    font-size: large;
+}
+
+.pen-gh4{
+   background-color: greenyellow;
+    color: black;
+    padding: 20px;
+    font-size: large;
+}
+
+.pen-h3{
+   background-color: yellow;
+   color: black;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+.pen-lh3{
+   background-color: greenyellow;
+   color: black;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+
+.pen-bh3{
+   background-color: rgb(34, 36, 32);
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: white;
+}
+
+.footer-div{
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    color: rgb(12, 146, 255);
+}
+
+b{
+    color: rgb(12, 146, 255);;
+}
+
+
+
+
+/* use a media query to add a break point @ 700px*/
+        @media screen and (max-width:728px){
+             body{
+            background-color: aqua;
+        }
+        .comfort-main{
+            flex-direction: column;
+        }
+        
+     
+        }
+       
+
+        
