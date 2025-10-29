@@ -322,6 +322,9 @@ b{
                 float: right; 
                 margin-top: -25px;
              }
+
+            .com-text h1{
+                font-size: 30px;
         }
 
         @media (min-width: 485px){
